@@ -1,1 +1,25 @@
-
+{
+    "name" : "sirikkoster/pokemon-data.json",
+    "description" : "Data for Pokemon",
+    "keywords" : [
+        "pokemon",
+        "tcg",
+        "sdk"
+    ],
+    "type" : "library",
+    "license" : "MIT",
+    "require" : {
+    },
+    "require-dev" : {
+    },
+    "autoload" : {
+        "psr-4" : {
+            "PokeDataJson\\" : "src/"
+        }
+    },
+    "extra" : {
+        "branch-alias" : {
+            "dev-master" : "1.0.x-dev"
+        }
+    }
+}
